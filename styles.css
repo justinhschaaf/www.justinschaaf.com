@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Overpass');
+
+* {
+
+    font-family: 'Overpass', 'Segoe UI Emoji', sans-serif;
+    margin: 0;
+
+    color: #ffffff;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Major Mono Display', 'Segoe UI Emoji', sans-serif;
+}
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #111111;
+}
+
+.content {
+
+    width: 90%;
+    max-width: 720pt;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.content img {
+
+    width: 90%;
+    max-width: 256pt;
+    margin: 32pt auto;
+
+    box-shadow: 0 3pt 8pt rgba(255, 255, 255, 0.2);
+    transition: 0.25s;
+
+}
+
+.content img:hover {
+    box-shadow: 0 5pt 10pt rgba(255, 255, 255, 0.2);
+}
+
+.content p {
+    margin: 32pt auto;
+}
